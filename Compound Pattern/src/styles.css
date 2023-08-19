@@ -1,0 +1,27 @@
+* {
+  padding: 0px;
+  margin: 0;
+  box-sizing: border-box;
+}
+.headerContainer {
+  display: flex;
+  width: 100%;
+  background-color: goldenrod;
+}
+
+.headerItem {
+  flex: 1;
+  cursor: pointer;
+  align-items: center;
+  border: 1px solid black;
+  padding: 10px;
+}
+.headerItem.active {
+  background-color: lightseagreen;
+}
+.contentContainer {
+  background-color: gray;
+  padding: 16px;
+}
+.contentItem {
+}
